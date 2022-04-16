@@ -26,6 +26,7 @@ nav a:hover {
 /* content */
 section.content h1 {
     font-weight: 800;
-font-size: 64px;
-line-height: 87px;
+    font-size: 64px;
+    line-height: 87px;
+    padding-right: 200px;
 }
