@@ -81,3 +81,33 @@ section.content a::after {
     align-items: center;
     justify-content: space-around;
 }
+
+@media screen and (max-width:676px) {
+    body::after {
+        height: 150px;
+        width: 150px;
+        background-size: contain;
+    }
+    
+    body::before {
+        height: 150px;
+        width: 150px;
+        background-size: contain;
+    }
+
+    section.content h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    
+    section.content a {
+        font-size: 18px;
+    }
+
+    section.content a::after {
+        width: 30px;
+        height: 30px;
+        background-size: contain;
+    }
+    
+}
