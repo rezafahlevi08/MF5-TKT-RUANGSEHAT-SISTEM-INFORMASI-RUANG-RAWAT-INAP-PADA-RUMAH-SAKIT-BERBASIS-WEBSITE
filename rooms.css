@@ -85,3 +85,24 @@ nav .logo a:hover {
     justify-content: space-around;
     padding-top: 20px;
 }
+
+@media screen and (max-width: 576px) {
+    body::after {
+        content: '';
+        height: 150px;
+        width: 150px;
+        background-size: contain;
+    }
+
+    /* breadcrumb */
+    .breadcrumb {
+        margin-left: 38px;
+    }
+
+    /* footer */
+    .copyright {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+}

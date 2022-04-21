@@ -135,4 +135,11 @@ nav .logo a:hover {
     .content .data h4.fasilitas {
         margin-top: 20px;
     }
+
+    /* footer */
+    .copyright {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
 }
