@@ -109,5 +109,10 @@ section.content a::after {
         height: 30px;
         background-size: contain;
     }
+
+    .copyright {
+        display: flex;
+        flex-direction: column;
+    }
     
 }
